@@ -5,13 +5,14 @@ print('='*40)
 print('Rumus Kerucut')
 print('='*40)
 
-r = int(input("Masukkan jari-jari : "))
-t = int(input("Maasukkan tinggi : "))
-phi = 3.14
-s = int(input("sisi miring : "))
+def kerucut():
+    r = int(input("Masukkan jari-jari : "))
+    t = int(input("Maasukkan tinggi : "))
+    phi = 3.14
+    s = int(input("sisi miring : "))
+    V = lambda phi,r,t: 1/3*phi*r**2*t
+    Lp = lambda phi,r,s: (phi*r**2)+(phi*r*s)
+    print("Volume = ",V(phi,r,t),"cm3")
+    print("Luas Permukaan = ",Lp(phi,r,s),"cm2")
 
-V = 1/3*phi*r**2*t
-Lp = (phi*r**2)+(phi*r*s)
-
-print("Volume = ",V,"cm3")
-print("Luas Permukaan = ",Lp,"cm2")
+kerucut()

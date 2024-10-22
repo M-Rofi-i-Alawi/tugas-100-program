@@ -5,14 +5,15 @@ print('='*40)
 print("Rumus Kubus")
 print('='*40)
 
-s = int(input("Masukkan sisi : "))
+def kubus():
+    s = int(input("Masukkan sisi : "))
+    v = lambda s: s*3
+    lp = lambda s: 6*(s*s)
+    k = lambda s: 12*s
+    l = lambda s: s*s
+    print("Volume = ",v(s),"cm3")
+    print("Luas Permukaan = ",lp(s),"cm2")
+    print("Keliling = ",k(s),"cm")
+    print("Luas = ",l(s),"cm2")
 
-v = s*3
-lp = 6*(s*s)
-k = 12*s
-l = s*s
-
-print("Volume = ",v,"cm3")
-print("Luas Permukaan = ",v,"cm2")
-print("Keliling = ",v,"cm")
-print("Luas = ",v,"cm2")
+kubus()

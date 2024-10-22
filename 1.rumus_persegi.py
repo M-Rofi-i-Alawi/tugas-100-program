@@ -1,8 +1,14 @@
+# Dibuat oleh M.Rofi'i Alawi
+# Tanggal pengerjaan: 6-10-2024
+
 print("===========Program persegi==========")
 
-sisi = int(input("Masukkan sisi : "))
-luas = 2*sisi
-keliling = 4*sisi
+def persegi():
+    sisi = int(input('Sisi\t\t: '))
+    luas = lambda s: s*s
+    keliling = lambda s: 4*s
+    
+    print(f'Luas\t\t: ',luas(sisi),'cm2')
+    print(f"Keliling\t: ",keliling(sisi),"cm")
 
-print("Luas = ",luas,"cm2")
-print("Keliling = ",keliling,"cm")
+persegi()
