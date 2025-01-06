@@ -1,3 +1,5 @@
+# Dibuat oleh Muhammad Rofi'i Alawi
+# Dibuat tanggal 17-12-2024
 # Program penerimaan pengurus OSIS atau MPK SMKN 1 Cianjur periode 2025/2026
 
 # Program Seleksi OSIS dan MPK

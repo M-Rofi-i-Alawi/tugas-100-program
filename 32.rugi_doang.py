@@ -1,6 +1,6 @@
 # Dibuat oleh Muhammad Rofi'i Alawi
 # Kelas X PPLG 2
-# Tanggal : 5-1-2024
+# Tanggal : 5-1-2025
 
 print("="*20 + " Program total rugi dalam aritmatika sosial " + "="*20)
 
