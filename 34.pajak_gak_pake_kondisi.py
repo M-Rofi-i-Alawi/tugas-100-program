@@ -3,7 +3,7 @@
 # Tanggal : 6-1-2025
 
 print("="*20)
-print("Program pajak")
+print("Program pajak gak pake kondisi")
 print("="*20)
 
 def pajak():

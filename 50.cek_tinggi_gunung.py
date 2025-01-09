@@ -5,7 +5,7 @@
 print("cek tinggi gunuht")
 print("="*20)
 
-gunung = int(input("nama gunung: "))
+gunung = str(input("nama gunung: "))
 ukuran = int(input("tidur berapa jam? "))
 
 if ukuran == 500:

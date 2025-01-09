@@ -9,9 +9,9 @@ lebar = int(input("lebar = "))
 panjang = int(input("panjang = "))
 
 if lebar >=26:
-  print(f"kebesaran",{lebar})
+  print("kebesaran")
 elif panjang >=38:
-  print(f"kepanjangan",{panjang})
+  print("kepanjangan")
 else:
-  print(f"lebarnya",{lebar} ,"tidak kebesaran")
-  print(f"panjangnya", {panjang},"tidak kepanjangan")
+  print("panjangnya tidak kepanjangan")
+  print("lebarnya tidak kebesaran")

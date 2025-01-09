@@ -5,7 +5,7 @@
 print("program kurang tidur atau tidak kekurangan tidur")
 print("="*20)
 
-tidur = int(input("tidur berapa jam?"))
+tidur = int(input("tidur berapa jam? "))
 
 if tidur == 8:
   print("tidurnya cukup")
