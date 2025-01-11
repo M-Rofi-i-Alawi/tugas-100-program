@@ -5,11 +5,11 @@
 print("program termasuk orang miskin/menengah/orang kaya")
 print("="*20)
 
-penghasilan = int(input('masukkan penghasilan anda: '))
+penghasilan = int(input('Masukkan penghasilan Anda: '))
 
-if penghasilan >=6000000:
-  print("anda orang kaya")
-elif 1000000 <=penghasilan>5000000:
-  print('anda kelas menengah')
+if penghasilan >= 6000000:
+    print("Anda kelas atas")
+elif 1000000 <= penghasilan <= 5999999:
+    print("Anda kelas menengah")
 else:
-  print("kelas miskin")
+    print("Kelas miskin")
